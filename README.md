@@ -1,6 +1,6 @@
 # DeepDRP
 
-The DeepDRP is a predictor tool for intrinsically disordered regions in protein and is built by Python framework.
+The DeepDRP is a predict tool for intrinsically disordered regions in protein and is built by Python framework.
 
 ## Environment
 
