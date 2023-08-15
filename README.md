@@ -2,7 +2,7 @@
 
 The DeepDRP is a predict tool for intrinsically disordered regions in protein and is built by Python framework.
 
-## Environment
+## 1. Environment
 
 Make sure the following python library is installed before using.
 
@@ -40,7 +40,7 @@ You need to download the model weights into the lib folder. Weights available at
 if you already have the pssm results of the protein, please put the <id>.pssm file into the tmp folder, the DeepDRP will first check if the pssm file exists. If not exist, the program will run the psiblast automatically.
 
 
-## Running DeepDRP
+## 2. Running DeepDRP
 
 Run in command line:
 
