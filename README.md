@@ -22,15 +22,11 @@ pip install pyqt6
 
 ### BLAST+ executables
 
-We only provide the Linux version psi-blast in the software, if you are a MacOS or Windows user, please replace the whole psi-blast tool in the lib folder.
-
-Download and install BLAST+. Installers and source code are available from https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/. 
+We only provide the Linux version psi-blast in the software, if you are a MacOS or Windows user, please replace the whole psi-blast tool in the lib folder. Download and install BLAST+. Installers and source code are available from https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/. 
 
 ### Download model weights
 
-You need to download the model weights into the lib folder
-
-Weights available at https://xxx.
+You need to download the model weights into the lib folder. Weights available at https://xxx.
 
 ### Prepare filelist file
 
