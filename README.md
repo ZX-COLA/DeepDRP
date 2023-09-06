@@ -24,7 +24,6 @@ pip install SentencePiece
 #if you want to use a GUI version of DeepDRP
 pip install pyqt6 
 ```
-
 ### BLAST+ executables
 
 We only provide the Linux version psi-blast in the software, if you are a MacOS or Windows user, please replace the whole psi-blast tool in the lib folder. Download and install BLAST+. Installers and source code are available from https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/. 
@@ -39,7 +38,6 @@ You need to download the model weights into the lib folder. Weights available at
 /DeepDRP/demo/DP00588.fasta
 /DeepDRP/demo/4RBXA.fasta
 ```
-
 ### PSSM file
 
 if you already have the pssm results of the protein, please put the <id>.pssm file into the tmp folder, the DeepDRP will first check if the pssm file exists. If not exist, the program will run the psiblast automatically.
