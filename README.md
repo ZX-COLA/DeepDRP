@@ -1,12 +1,11 @@
 # DeepDRP
 
 The DeepDRP is a predict tool for intrinsically disordered regions in protein and is built by Python framework.
+****
 
-Abstract
+**Abstract**
 Intrinsic disorder in proteins, a widely distributed phenomenon in nature, is related to many crucial biological processes and various diseases. Traditional determination methods tend to be high-cost and time-consuming, therefore it is desirable to seek an accurate identification method of intrinsically disordered proteins (IDPs). In this paper, we proposed a novel Deep learning model for Intrinsically Disordered Regions in Proteins named DeepDRP. DeepDRP employed an innovative TimeDistributed strategy and Bi-LSTM architecture to predict IDPs and is driven by integrated view features of PSSM, Energy-based encoding, AAindex, and transformer-enhanced embeddings including DR-BERT, OntoProtein, Prot-T5, and ESM-2. The comparison of different feature combinations indicates that the transformer-enhanced features contribute far more than traditional features to predict IDPs and ESM-2 accounts for a larger contribution in the pre-trained fusion vectors. The ablation test verified that the novel TimeDistributed strategy surely increased the model performance and is an efficient approach to the IDP prediction. Compared with state-of-the-art models on the DISORDER723, S1, and DisProt832 datasets, the Matthews correlation coefficient of DeepDRP significantly outperformed competing methods by 4.90% to 36.20%, 11.80% to 26.33%, and 4.82% to 13.55%. In brief, DeepDRP is a reliable model for IDP prediction and is freely available at https://github.com/ZX-COLA/DeepDRP.
-![image](https://github.com/ZX-COLA/DeepDRP/assets/91360999/d3cdb1b5-a62c-4dce-a956-a4538e121700)
-
-
+****
 
 ## 1. Environment
 
