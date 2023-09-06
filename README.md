@@ -57,7 +57,7 @@ python predict.py -i <filelist> -o <output_path>
 #Demo
 cd DeepDRP
 conda activate DeepDRP
-python predict.py -i ./filelist -o ./results
+python predict.py -i ./demo/filelist -o ./results
 ```
 
 Run in GUI mode:
