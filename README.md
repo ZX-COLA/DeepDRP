@@ -36,8 +36,8 @@ You need to download the model weights into the lib folder. Weights available at
 ### Prepare filelist file
 
 ```
-/home/usr/DeepDRP/demo/4RBXA.fasta
-/home/usr/DeepDRP/demo/DP00588.fasta
+/DeepDRP/demo/DP00588.fasta
+/DeepDRP/demo/4RBXA.fasta
 ```
 
 ### PSSM file
