@@ -29,8 +29,10 @@ pip install pyqt6
 please download the whole psi-blast tool in the lib folder. Download and install BLAST+. Installers and source code are available from https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/. 
 
 In predict.py file:
-line 312, variable db_path is the path of the database(blast).
-line 315, variable balst_path is the path of the psi-blast tools.
+
+line 312, variable db_path is the path of the database(blast), which is default setted as <db_path = './lib/uniref50.fasta/uniref50.fasta'>
+
+line 315, variable balst_path is the path of the psi-blast tools, which is default setted as <balst_path = "./lib/ncbi-blast-2.14.0+/bin/psiblast">
 
 
 
