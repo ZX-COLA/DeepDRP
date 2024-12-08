@@ -26,7 +26,13 @@ pip install pyqt6
 ```
 ### BLAST+ executables
 
-We only provide the Linux version psi-blast in the software, if you are a MacOS or Windows user, please replace the whole psi-blast tool in the lib folder. Download and install BLAST+. Installers and source code are available from https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/. 
+please download the whole psi-blast tool in the lib folder. Download and install BLAST+. Installers and source code are available from https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/. 
+
+In predict.py file:
+line 312, variable db_path is the path of the database(blast).
+line 315, variable balst_path is the path of the psi-blast tools.
+
+
 
 ### Download model weights
 
