@@ -35,16 +35,6 @@ line 312, variable db_path is the path of the database(blast), which is default 
 line 315, variable balst_path is the path of the psi-blast tools, which is default setted as <balst_path = "./lib/ncbi-blast-2.14.0+/bin/psiblast">
 
 
-
-### Download model weights
-
-The BERT models weights can be atuomatically downloaded.
-
-
-
-
-
-
 ### Prepare filelist file
 
 ```
