@@ -4,7 +4,7 @@ import torch
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
-model_name = "../lib/DR-BERT"
+model_name = "Dr-BERT/DrBERT-7GB"
 
 tokenizer_drbert = AutoTokenizer.from_pretrained(model_name)
 model_drbert = AutoModel.from_pretrained(model_name).eval().to(device)
