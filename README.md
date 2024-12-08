@@ -30,7 +30,12 @@ We only provide the Linux version psi-blast in the software, if you are a MacOS 
 
 ### Download model weights
 
-You need to download the model weights into the lib folder. Weights available at https://xxx.
+The BERT models weights can be atuomatically downloaded.
+
+
+
+
+
 
 ### Prepare filelist file
 
