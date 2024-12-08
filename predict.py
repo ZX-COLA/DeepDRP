@@ -18,7 +18,7 @@ model_t5 = T5Model.from_pretrained("Rostlab/prot_t5_xl_uniref50")
 
 print("loading DR-BERT...")
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
-model_name_drbert = "lib/DR-BERT"
+model_name_drbert = "Dr-BERT/DrBERT-7GB"
 tokenizer_drbert = AutoTokenizer.from_pretrained(model_name_drbert)
 model_drbert = AutoModel.from_pretrained(model_name_drbert).eval().to(device)
 
